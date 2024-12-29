@@ -1,6 +1,6 @@
 package com.secured.leetcode.p_121_bestTimeToBuyAndSellStock;
 
-public class Solution {
+public class P_121 {
 
     public static int maxProfit(int[] prices) {
         int maxProfit = 0;
