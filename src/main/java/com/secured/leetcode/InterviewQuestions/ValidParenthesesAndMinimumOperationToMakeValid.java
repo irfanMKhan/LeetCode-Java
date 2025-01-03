@@ -1,8 +1,8 @@
-package com.secured.leetcode.test;
+package com.secured.leetcode.InterviewQuestions;
 
 import java.util.Stack;
 
-public class test {
+public class ValidParenthesesAndMinimumOperationToMakeValid {
 
     public static int valid(String s) {
 
