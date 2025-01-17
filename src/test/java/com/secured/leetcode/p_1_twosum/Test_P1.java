@@ -2,7 +2,7 @@ package com.secured.leetcode.p_1_twosum;
 
 import org.junit.jupiter.api.Test;
 
-public class Test_P1 {
+class Test_P1 {
 
     @Test
     public void test_TwoSum() {

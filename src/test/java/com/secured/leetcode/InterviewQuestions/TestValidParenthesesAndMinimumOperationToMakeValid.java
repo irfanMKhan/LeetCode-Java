@@ -2,7 +2,7 @@ package com.secured.leetcode.InterviewQuestions;
 
 import org.junit.jupiter.api.Test;
 
-class testValidParenthesesAndMinimumOperationToMakeValid {
+class TestValidParenthesesAndMinimumOperationToMakeValid {
 
     @Test
     void test() {

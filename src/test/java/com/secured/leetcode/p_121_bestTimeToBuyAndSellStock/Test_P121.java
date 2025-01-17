@@ -2,7 +2,7 @@ package com.secured.leetcode.p_121_bestTimeToBuyAndSellStock;
 
 import org.junit.jupiter.api.Test;
 
-public class Test_P121 {
+class Test_P121 {
 
     @Test
     public void test_TwoSum() {
