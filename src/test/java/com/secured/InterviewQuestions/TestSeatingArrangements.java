@@ -1,5 +1,6 @@
-package com.secured.leetcode.InterviewQuestions;
+package com.secured.InterviewQuestions;
 
+import com.secured.InterviewQuestions.SeatingArrangements;
 import org.junit.jupiter.api.Test;
 
 class TestSeatingArrangements {

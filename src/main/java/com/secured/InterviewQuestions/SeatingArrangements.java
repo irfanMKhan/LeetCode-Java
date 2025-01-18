@@ -1,4 +1,4 @@
-package com.secured.leetcode.InterviewQuestions;
+package com.secured.InterviewQuestions;
 
 
 import java.util.Arrays;
