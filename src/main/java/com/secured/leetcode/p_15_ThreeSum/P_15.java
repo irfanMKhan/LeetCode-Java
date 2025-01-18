@@ -60,7 +60,6 @@ public class P_15 {
                     left++;
                 else
                     right--;
-
             }
         }
         return op;
