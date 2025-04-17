@@ -14,4 +14,16 @@ public class P_1 {
         }
         return new int[0];
     }
+
+    public static int[] twoSum_withoutHashmap(int[] nums, int target) {
+
+        for (int i = 1; i < nums.length; i++) {
+            for (int j = i; j < nums.length; j++) {
+                if (nums[j] + nums[j - i] == target) {
+                    return new int[]{j - i, j};
+                }
+            }
+        }
+        return new int[0];
+    }
 }
