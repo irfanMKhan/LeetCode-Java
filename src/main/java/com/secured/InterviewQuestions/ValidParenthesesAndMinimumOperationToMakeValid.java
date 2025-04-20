@@ -17,11 +17,33 @@ public class ValidParenthesesAndMinimumOperationToMakeValid {
                 stack.push(c);
             } else if (c == '}' && (!stack.isEmpty() && stack.peek() == '{')) {
                 stack.pop();
-            } else
+            } else {
                 opr++;
-
+                stack.push(c);
+            }
         }
-        opr += stack.size();
+        opr += stack.size() / 2;
         return opr;
+    }
+
+    public static int minOperations(String s) {
+        int ans = 0;
+        int balance = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '{') {
+                balance++;
+            } else {
+                if (balance == 0) {
+                    ans++;
+                    balance++;
+                } else {
+                    balance--;
+                }
+            }
+        }
+        if (balance % 2 != 0) {
+            return -1;
+        }
+        return ans + balance / 2;
     }
 }
