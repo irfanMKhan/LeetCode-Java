@@ -18,10 +18,10 @@ public class P_1 {
 
     public static int[] twoSum_withoutHashmap(int[] nums, int target) {
 
-        for (int i = 1; nums.length > i; i++) {
-            for (int j = i; nums.length > j; j++) {
-                if (target == nums[j - i] + nums[j])
-                    return new int[]{j - i, j};
+        for (int i = 0; nums.length > i; i++) {
+            for (int j = i + 1; nums.length > j; j++) {
+                if (target == nums[i] + nums[j])
+                    return new int[]{i, j};
             }
         }
         return new int[]{};
