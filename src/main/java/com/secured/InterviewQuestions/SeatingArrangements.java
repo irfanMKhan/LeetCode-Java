@@ -31,7 +31,7 @@ import java.util.Arrays;
  * arr = [5, 10, 6, 8]
  * output = 4
  * If the guests sit down in the permutation [3, 1, 4, 2] in clockwise order around the table
- * (having heights [6, 5, 8, 10], in that order), then the four awkwardnesses between pairs of adjacent
+ * (having heights [6, 5, 8, 10], in that order), then the four awkwardness between pairs of adjacent
  * guests will be |6-5| = 1, |5-8| = 3, |8-10| = 2, and |10-6| = 4, yielding an overall awkwardness of 4.
  * It's impossible to achieve a smaller overall awkwardness.
  */
